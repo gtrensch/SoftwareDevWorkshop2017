@@ -66,4 +66,4 @@ if __name__ == '__main__':
     if params.functionIndex == CONST_FUNC_CODE_FIBONACCI:
         print('fib(' + str(params.operand) + ') =', result)
     elif params.functionIndex == CONST_FUNC_CODE_FACTORIAL:
-        print(str(params.operand) + '! =', str(result))
+        print('factorial ' + str(params.operand) + '! =', str(result))
