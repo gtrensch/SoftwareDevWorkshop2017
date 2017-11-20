@@ -37,8 +37,8 @@ Options:
 
 from docopt import docopt
 from parameters import *
-from functions.fibonacci import *
-from functions.factorial import *
+from functions.fibonacci import FibonacciSequence
+from functions.factorial import Factorial
 
 #
 # FUNCTION TABLE
