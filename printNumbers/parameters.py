@@ -71,3 +71,4 @@ class Parameters(object):
         print('Function Code: ', self.functionIndex)
         print('Operand value: ' + str(self.operand))
         print('')
+        print('')
