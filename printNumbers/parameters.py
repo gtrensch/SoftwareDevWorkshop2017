@@ -22,7 +22,7 @@
 #
 # Class to process and store program parameters.
 #
-
+# Modified by sowdev07 
 CONST_VERSION = 'V1.0'
 CONST_VERSION_STRING = '+ + PrintNumbers ' + CONST_VERSION + ' (Software Development in Science 2017) + +'
 CONST_DEF_OPERAND_VAL = 10
@@ -66,6 +66,7 @@ class Parameters(object):
         self.__functionIndex = value
 
     def PrintParameters(self):
+        print('')
         print('Following Parameters are in use:')
         print('--------------------------------')
         print('Function Code: ', self.functionIndex)
