@@ -28,6 +28,17 @@ def FibonacciRecursion(n):
     else:
         return (FibonacciRecursion(n - 1) + FibonacciRecursion(n - 2))
 
+def FibonacciNumber(n):
+    '''
+    Helper function.
+    '''
+    c1=0.5+0.5*sqrt(5)
+    c2=0.5-0.5*sqrt(5)
+    if n <= 1:
+        return n
+    else:
+        return (c1**n - c2**n) / sqrt(5)
+
 def FibonacciSequence(n):
     '''
     :param n:   Operand
