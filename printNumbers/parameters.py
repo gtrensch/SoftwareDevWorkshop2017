@@ -23,6 +23,10 @@
 # Class to process and store program parameters.
 #
 
+#
+# More documentation
+#
+
 CONST_VERSION = 'V1.0'
 CONST_VERSION_STRING = '+ + PrintNumbers ' + CONST_VERSION + ' (Software Development in Science 2017) + +'
 CONST_DEF_OPERAND_VAL = 10
