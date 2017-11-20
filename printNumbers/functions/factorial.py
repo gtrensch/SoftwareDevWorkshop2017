@@ -19,11 +19,11 @@
 # You should have received a copy of the GNU General Public License
 # along with printNumbers.  If not, see <http://www.gnu.org/licenses/>.
 
-import math
+from math import factorial
 
 def Factorial(n):
     '''
     :param n:  Operand
     :return:   n!
     '''
-    return(math.factorial(n))
+    return(factorial(n))
