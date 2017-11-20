@@ -54,6 +54,8 @@ if __name__ == '__main__':
     print('')
     print(CONST_VERSION_STRING)
     print('')
+    
+    print("hello world")
 
     # Process command line arguments.
     params = Parameters(docopt(__doc__, version = CONST_VERSION))
