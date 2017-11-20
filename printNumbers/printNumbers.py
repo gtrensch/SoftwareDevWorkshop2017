@@ -39,7 +39,7 @@ from docopt import docopt
 from parameters import *
 from functions.fibonacci import *
 from functions.factorial import *
-
+import numpy 
 #
 # FUNCTION TABLE
 #
